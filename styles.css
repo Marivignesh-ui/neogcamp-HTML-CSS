@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+:root{
+    --primarycolor:#06B6D4;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+@media(max-width:600px){
+.profphot{
+    top:130px;
+    left:20px;
+}
+}
+@media(min-width:610px){
+    .profphot{
+        top:120px;
+        left:30px;
+    }
+}
+.nav{
+    background-color: var(--primarycolor);
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:5px;
+    /* width:100%; */
+    margin:auto;
+}
+.nav-list li{
+    display: inline-block;
+    padding:0rem 7px;
+}
+.nav h1{
+    color: white;
+}
+.nav-list a{
+    text-decoration: none;
+    font-size: large;
+    color:white;
+}
+.profphot{
+    display: inline;
+    position: absolute;
+    
+    border: solid 2px;
+    /* overflow: hidden; */
+    border-radius:50%;
+    height: 90px;
+    width:90px;
+    border-color: white;
+}
+.nav img{
+    border-radius: 50%;
+    height: 90px;
+    width:90px;
+} 
+.nav ul{
+    text-align: right;
+}
+.link-active{
+    font-weight: bold;
+}
+header{
+    text-align: center;
+}
+header img{
+    border: solid 2px;
+    border-color: darkgray;
+    border-radius: 15px;
+    width:50%;
+    height:50%;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+    padding: 2%;
+}
+.container-center h3{
+    text-align: center;
+}
+.techlist{
+    list-style: none;
+}
+.techcont{
+    border: solid 1px;
+    border-color: darkgray;
+    border-radius: 5px;
+    width: 60%;
+    height: 50%;
+    padding: 4px;
+    size: fit-content;
+}
+.techdiv{
+   padding:2px;
+} 
+.techlist li{
+    display: inline-block;
+    text-align: center;
+    padding:2px;
+}
+.techlist img{
+    width: 100%;
+}
+.techname{
+    padding-right:5px;
+}
+.primary{
+    background-color:var(--primarycolor);
+    border-radius: 10px;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.secondary{
+    border: 1px solid;
+    border-color: var(--primarycolor);
+    border-radius: 10px;
+    padding:10px;
+    text-decoration: none;
+    color:var(--primarycolor);
+    background-color: white;
+}
+footer{
+    background-color: var(--primarycolor);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align:center;
+}
+footer table{
+    align: center;
+    margin:auto;
+}
+footer tr{
+    text-align: left;
+    padding:2%;
+}
+/* ol{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+} */
