@@ -74,7 +74,7 @@ header img{
 .container-center{
     max-width: 600px;
     margin:auto;
-    padding: 2%;
+    padding: 3%;
 }
 .container-center h3{
     text-align: center;
@@ -137,8 +137,3 @@ footer tr{
     text-align: left;
     padding:2%;
 }
-/* ol{
-    text-align: center;
-    display: inline-block;
-    margin: auto;
-} */
