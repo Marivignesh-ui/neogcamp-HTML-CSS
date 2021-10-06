@@ -130,7 +130,7 @@ footer{
     text-align:center;
 }
 footer table{
-    align: center;
+    box-align: center;
     margin:auto;
 }
 footer tr{
